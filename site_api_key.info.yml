@@ -1,0 +1,6 @@
+name: Site API Key
+description: Adds Site API Key to the Site Information form.
+package: Custom
+
+type: module
+core: 8.x
