@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_form_alter().
+ */
+
+function site_api_key_form_system_site_information_settings_alter(&$form, $form_state, $form_id) {
+
+    // Add Site API Key field to 'Site Information' section
+    $form['site_information']['site_api_key'] = array(
+        '#type' => 'textfield',
+        '#title' => t('Site API Key'),
+        '#default_value' => t('No API Key yet'),
+        '#description' => t('An API Key to access site pages in JSON format.'),
+    );
+}
