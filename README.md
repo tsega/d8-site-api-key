@@ -22,3 +22,4 @@ This module needs to alter the existing Drupal "Site Information" form. Specific
   - [Creating custom modules](https://www.drupal.org/docs/8/creating-custom-modules)
   - [A practical guide to building basic Drupal 8 modules](https://www.drupal.org/docs/8/creating-custom-modules/a-practical-guide-to-building-basic-drupal-8-modules)
   - [Drupal coding standards](https://www.drupal.org/node/318)
+  - [Acquia Drupal 8 Module Development](https://community.acquiacademy.com)
