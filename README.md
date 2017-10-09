@@ -23,3 +23,4 @@ This module needs to alter the existing Drupal "Site Information" form. Specific
   - [A practical guide to building basic Drupal 8 modules](https://www.drupal.org/docs/8/creating-custom-modules/a-practical-guide-to-building-basic-drupal-8-modules)
   - [Drupal coding standards](https://www.drupal.org/node/318)
   - [Acquia Drupal 8 Module Development](https://community.acquiacademy.com)
+  - [Drupal Exchange - How can I add a textbox in Site Information configuration](https://drupal.stackexchange.com/questions/156703/how-can-i-add-a-textbox-in-site-information-configuration)
