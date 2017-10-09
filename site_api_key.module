@@ -32,7 +32,7 @@ function site_api_key_handler($form, &$form_state)
     $config->save();
 
     // Add message that Site API Key has been set
-    dsm("Successfully set Site API Key to " . $new_site_api_key);
+    drupal_set_message("Successfully set Site API Key to " . $new_site_api_key);
 }
 
 /**
