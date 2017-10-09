@@ -27,8 +27,12 @@ function site_api_key_handler($form, &$form_state)
 {
     // Update the system variable Site API Key
     $config = \Drupal::configFactory()->getEditable('siteapikey.configuration');
-    $config->set('siteapikey', $form_state->getValue(['site_api_key']));
+    $new_site_api_key = $form_state->getValue(['site_api_key']);
+    $config->set('siteapikey', $new_site_api_key);
     $config->save();
+
+    // Add message that Site API Key has been set
+    dsm("Successfully set Site API Key to " . $new_site_api_key);
 }
 
 /**
