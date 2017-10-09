@@ -24,3 +24,8 @@ This module needs to alter the existing Drupal "Site Information" form. Specific
   - [Drupal coding standards](https://www.drupal.org/node/318)
   - [Acquia Drupal 8 Module Development](https://community.acquiacademy.com)
   - [Drupal Exchange - How can I add a textbox in Site Information configuration](https://drupal.stackexchange.com/questions/156703/how-can-i-add-a-textbox-in-site-information-configuration)
+  - [Drupal 8 node serialization to JSON](https://drupal.stackexchange.com/questions/191419/drupal-8-node-serialization-to-json)
+  - [Using parameters in routes](https://www.drupal.org/docs/8/api/routing-system/using-parameters-in-routes)
+  
+## Time Taken
+The approximate time taken to implement this module was **5 hours**. *Note: It was my first time to build a Drupal 8 module.*
